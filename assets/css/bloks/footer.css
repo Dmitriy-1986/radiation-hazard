@@ -1,0 +1,5 @@
+footer {
+    border-top: 2px solid var(--bs-aqua-light);
+    padding: 1.5rem;
+    background: var(--bs-dark);
+}

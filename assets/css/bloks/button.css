@@ -1,0 +1,15 @@
+button {
+    height: 60px;
+    width: 200px;
+    left: 0px; top: 0px;
+    padding: 0px;
+    cursor: pointer;
+    background: none rgb(97, 219, 251);
+    border: none; text-align: center;
+    font-family: var(--bs-font-monospace);
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(23, 23, 22);
+    line-height: 1;
+    border-radius: 25px;
+}
