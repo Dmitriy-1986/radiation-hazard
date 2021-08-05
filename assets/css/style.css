@@ -2,7 +2,7 @@
 @import url('../fonts/spacemono.woff2');
 @import url('../fonts/spacemonoru.ttf');
 @import url('./core.css');
-@import url('./reset.css');
+/*@import url('./reset.css');*/
 @import url('./root.css');
 @import url('./bloks/header.css');
 @import url('./bloks/main.css');
