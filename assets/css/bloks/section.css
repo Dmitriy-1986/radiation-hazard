@@ -27,23 +27,9 @@ section .bubble {
     word-wrap: break-word; 
     
 }
+
 .text-center {
     text-align: center;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    max-width: 100%;
-    margin-top: calc(0 * -1);
-    margin-right: calc(1.5rem * -.5);
-    margin-left: calc(1.5rem * -.5);
-}
-
-
-.col {
-    flex: 1 0 0%;
-    padding: 12px;
 }
 
 .d-flex {
