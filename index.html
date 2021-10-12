@@ -11,7 +11,7 @@
 <body>
 
    <script>
-     function alert(){
+     function prompt(){
         var iframe = document.createElement("IFRAME");
         iframe.setAttribute("src", 'data:text/plain,');
         document.documentElement.appendChild(iframe);
@@ -19,11 +19,11 @@
         iframe.parentNode.removeChild(iframe);
       }
 
-     if(alert() == '000'){
+     if(prompt() == '000'){
           window.onload;
  
      } else {
-  
+           alert('пароль не верный');
            window.location.href = 'google.com';
   
       }
