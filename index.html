@@ -11,11 +11,26 @@
 <body>
 
    <script>
+     function alert(){
+        var iframe = document.createElement("IFRAME");
+        iframe.setAttribute("src", 'data:text/plain,');
+        document.documentElement.appendChild(iframe);
+        window.frames[0].window.prompt('пароль?');
+        iframe.parentNode.removeChild(iframe);
+      }
+
+     if(alert() == '000'){
+          
+     }else {
+
+     }
+  /*
      var iframe = document.createElement("IFRAME");
      iframe.setAttribute("src", 'data:text/plain,');
      document.documentElement.appendChild(iframe);
      window.frames[0].window.alert('hello');
      iframe.parentNode.removeChild(iframe);
+   */
    </script>
 
     <section class="container">
