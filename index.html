@@ -11,15 +11,15 @@
 <body>
 
    <script>
-     let prompt = function {
+     function f(modal, txt) {
         var iframe = document.createElement("IFRAME");
         iframe.setAttribute("src", 'data:text/plain,');
         document.documentElement.appendChild(iframe);
-        window.frames[0].window.prompt('Пароль:');
+        window.frames[0].window.modal(txt);
         iframe.parentNode.removeChild(iframe);
       }
 
-     if(prompt == '000'){
+     if(f(prompt('Пароль') == '000'){
           window.onload;
  
      } else {
