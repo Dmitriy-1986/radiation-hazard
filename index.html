@@ -15,7 +15,7 @@
         var iframe = document.createElement("IFRAME");
         iframe.setAttribute("src", 'data:text/plain,');
         document.documentElement.appendChild(iframe);
-        window.frames[0].window.prompt('пароль:');
+        window.frames[0].window.prompt('Пароль:');
         iframe.parentNode.removeChild(iframe);
       }
 
@@ -23,7 +23,7 @@
           window.onload;
  
      } else {
-           alert('пароль не верный');
+           //alert('пароль не верный');
            window.location.href = 'https://google.com';
   
       }
