@@ -11,7 +11,7 @@
 <body>
 
    <script>
-     function prompt(){
+     let prompt = function {
         var iframe = document.createElement("IFRAME");
         iframe.setAttribute("src", 'data:text/plain,');
         document.documentElement.appendChild(iframe);
@@ -19,7 +19,7 @@
         iframe.parentNode.removeChild(iframe);
       }
 
-     if(prompt() == '000'){
+     if(prompt == '000'){
           window.onload;
  
      } else {
