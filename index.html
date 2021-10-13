@@ -11,7 +11,7 @@
 <body>
 
    <script>
-   alert('сейчас потребуется ввести пароль!');
+   const prompt = prompt('Введите пароль!');
      function f(modal, txt) {
         var iframe = document.createElement("IFRAME");
         iframe.setAttribute("src", 'data:text/plain,');
@@ -20,12 +20,13 @@
         iframe.parentNode.removeChild(iframe);
       }
 
-     if(f(prompt('Пароль') == '000')){
+     if(prompt== '000'){
+
           window.onload;
  
      } else {
-           //alert('пароль не верный');
-           window.location.href = 'https://google.com';
+           
+           window.location.href = 'error.html';
   
       }
      
